@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Column from "./column";
 import initialData from "./initial-data";
+import "@atlaskit/css-reset";
 
 class App extends React.Component {
   state = initialData;
